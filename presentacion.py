@@ -1,8 +1,7 @@
-nombre = "Piero"
-edad = 23
-lenguaje_favorito = "Python"
+nombre = input("Cual es tu nombre?")
 
+nacimiento = int(input("Cual es tu anio de nacimiento?"))
 
-print(f"Hola, soy {nombre} y en 5 anios tendre {edad + 5} estoy aprendiendo {lenguaje_favorito}")
+print(f"Hola, tu te llamas {nombre} y tu edad es {2026 - nacimiento}")
 
 
